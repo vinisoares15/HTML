@@ -1,0 +1,36 @@
+<html>
+    <head>  
+        <title>Um pouco de CSS</title>  
+        <link rel="stylesheet" href="poucodeCSS.css"> <!-- integra o css do outro arquivo com esse arquivo-->
+        
+        <style>
+
+                   /**aqui você está atribuindo as características do elemento h1**/
+            h1 {
+                
+                background-color: red;
+                position: absolute;
+                top: 400px;
+                left: 400px;
+                font-size: 20px;               
+            }
+                /** Aqui você está criando uma classe que vai compor as características dos elementos atribuídos**/
+            .fundoVermelho {
+                background-color: #C00;
+            }
+            .Negrito {
+                font-weight: bold;
+            }
+         
+            .descer200px {
+                top: 400px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CSS</h1>
+        <span id="textoPrincipal">texto1</span><br><br>
+        <span class="fundoVermelho.Negrito">texto2</span><br><br>
+        <span class="fundoVermelho.descer200px">texto3</span><br><br>
+    </body>
+</html>
